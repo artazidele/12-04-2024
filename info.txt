@@ -1,0 +1,30 @@
+Back-end
+
+cd back-end
+npm init -y
+npm install express
+npm i --save-dev nodemon
+npm install mongodb
+npm i mongoose
+npm install cors
+npm i method-override
+nodemon server
+http://localhost:3001/products
+
+
+Front-end
+
+npx create-react-app front-end
+cd front-end
+npm i react-router-dom
+npm i axios
+npm start
+http://localhost:3000
+
+To run repository:
+    1) need to add PASSWORD in the file /back-end/index.js 
+    2) run "npm install" in both folders back-end and front-end
+    3) in the folder back-end need to run command "nodemon server"
+    4) in the folder front-end need to run command "npm start"
+    5) the front-end can be seen in http://localhost:3000
+    6) backend can be seen in http://localhost:3001/products

@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  z-index: 3;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 120px;
+  overflow: hidden;
+  background-color: #6C9197;
+}
+
+li {
+  float: left;
+}
+
+.menu-item {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #E3E9EA;
+  color: #17454C;
+}
+
+img {
+  height: 80px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  float: left;
+  width: 80px;
+}
+
+.content {
+  padding-top: 160px;
+}
+
+.all-products {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.counted-products {
+  display: flex;
+  flex-direction: column;
+}
+
+.in-one-page {
+  display: flex;
+  gap: 10px;
+  float: left;
+  flex-direction: row;
+}
+
+.in-one-page input {
+  height: 20px;
+  margin-top: 18px;
+}
+
+.filter-by {
+  display: flex;
+}
+
+.filter-by input {
+  height: 20px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.page button, .td-button{
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #6C9197;
+  background-color: #6C9197;
+  color: white;
+}
+
+.page button:hover, .td-button:hover{
+  background-color: #E3E9EA;
+  color: #17454C;
+  border: 1px solid #17454C;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #17454C;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: white solid 1px;
+  border-radius: 3px;
+  background-color: white;
+  height: 40px;
+}
+
+.td-input {
+  width: 95%;
+  height: 95%;
+}
+
+.page-count {
+  margin-top: 5px;
+}
+
+.title-bottom {
+  font-size: x-small;
+  color: #17454C;
+  margin-top: -15px;
+  border-top: 1px solid #17454C;
+  width: 20%;
+}
+
+.error-div {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.error-text {
+  padding: 5px;
+  display: block;
+  width: 60%;
+  margin: auto;
+  border: 1px solid #17454C;
+  border-radius: 5px;
+}
+
+.loading-div {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.product-page {
+  text-align: left;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
